@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "JavaScriptEX02";
+}
+@section scripts{
+    <script type="text/javascript" src="~/Scripts/JavaScriptEX02.js"></script>
+    @Scripts.Render("~/bundles/jquery")
+}
+
+<h2>JavaScriptEX02</h2>
+<h3>Fatorial</h3>
+
+<form class="form-group frm-test2">
+    <div class="form-group">
+        <label for="formGroupExampleInput">First Number</label>
+        <input type="number" class="form-control" id="input01" placeholder="Number">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<h4 class="ex01"> The factorial of a non-negative integer number: </h4>
+<div class="test-content">  </div>

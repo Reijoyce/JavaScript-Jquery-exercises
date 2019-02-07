@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "JavaScriptEX03";
+}
+@section scripts{
+    <script type="text/javascript" src="~/Scripts/JavaScriptEX03.js"></script>
+    @Scripts.Render("~/bundles/jquery")
+}
+
+<h2>JavaScriptEX03</h2>
+
+<h3>Printing numbers in ascending order </h3>
+
+<form class="form-group frm-test3">
+    <div class="form-group">
+        <label for="formGroupExampleInput">First Number</label>
+        <input type="number" class="form-control" id="input01" placeholder="First Number">
+    </div>
+    <div class="form-group">
+        <label for="formGroupExampleInput">Second Number</label>
+        <input type="number" class="form-control" id="input02" placeholder="Second Number">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<h4 class="ex01"> Ascending order </h4>
+<div class="test-content">  </div>
